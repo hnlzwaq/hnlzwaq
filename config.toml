@@ -1,4 +1,4 @@
 baseURL = 'https://hnlzwaq.gitee.io/homepage/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'ananke'
+theme = 'ananke2'

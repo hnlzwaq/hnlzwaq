@@ -112,8 +112,8 @@ deploy:
     bucket: mingyue-today
     region: oss-cn-shanghai
     folder: static
-    cdnEnable: false
-    deleteExtraFiles: false #谨慎开启
+    cdnEnable: true
+    deleteExtraFiles: true #谨慎开启
     secretId: LTAI5tPnPXM83j8jThnwTmCh
     secretKey: z4CtDVQrWvuauFpkhac2qmmKu3TgI3
   - type: git

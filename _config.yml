@@ -103,4 +103,18 @@ theme: landscape #https://github.com/hexojs/hexo-theme-landscape
 #theme: ayer  #https://gitee.com/shen-yu/hexo-theme-ayer#multi-language-support
 
 
-
+cdn:
+  enable: true
+  base: //cdn.com
+  tail: v=2019042200000
+  tags:
+    'img[data-orign]':  data-orign
+    'img[src]':
+      attribute: src
+      callback: >
+        function(imgSrc) {
+          return imgSrc + '?&v='+ Date.now()
+        }
+  excludeTags:
+    - 'link'
+    - 'script'

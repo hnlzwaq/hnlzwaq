@@ -104,32 +104,3 @@ theme: landscape #https://github.com/hexojs/hexo-theme-landscape
 
 
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-#deploy:
-#  type: cos-cdn
-#  cloud: aliyun
-#  cdnUrl: https://oss.mingyue.today
-#  bucket: mingyue-today
-#  region: oss-cn-shanghai
-#  folder: static
-#  cdnEnable: false
-#  deleteExtraFiles: false #谨慎开启
-#  secretId: LTAI5tCL7Njw7CrZ1BE99srH
-#  secretKey: pop8EjXMqK7NRmyYDY6UrRbJA8vCez
-deploy:
-  type: qiniu
-  accessKey: yAqPN64wTRBv5QiL_55950lYInuhxI-ruwQ020v_
-  secretKey: hhNqwxyd76x661WokXfh-Iu6hSpm0WayuRybrJdr
-  # 华东: Zone_z0, 华北: Zone_z1, 华南: Zone_z2, 北美: Zone_na0, 东南亚: Zone_as0
-  zone: cn-east-2
-  # the name of bucket
-  scope: mingyue-today
-  # example http://www.a.com/,http://www.b.cn/
-  dirsToRefresh: http://mingyue.today
-  # default is 3600
-  expires: 3600
-  # default is true
-  cover: true
-  # default is false
-  refreshCdn:  true

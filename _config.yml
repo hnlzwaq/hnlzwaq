@@ -99,11 +99,10 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape #https://github.com/hexojs/hexo-theme-landscape
-#theme: ayer  #https://gitee.com/shen-yu/hexo-theme-ayer#multi-language-support
-
-# //wsrv.nl/?url=wsrv.nl/lichtenstein.jp
-#//images.weserv.nl/?url=images.weserv.nl/lichtenstein.jpg&w=300&h=300&dpr=2
+#theme: landscape # https://github.com/hexojs/hexo-theme-landscape
+#theme: kaze  # https://github.com/theme-kaze/hexo-theme-Kaze
+#theme: ayer  # https://gitee.com/shen-yu/hexo-theme-ayer#multi-language-support
+theme: butterfly  # npm i hexo-theme-butterfly https://github.com/jerryc127/hexo-theme-butterfly  https://butterfly.js.org/
 
 
 deploy:

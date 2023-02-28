@@ -105,14 +105,21 @@ theme: landscape #https://github.com/hexojs/hexo-theme-landscape
 # //wsrv.nl/?url=wsrv.nl/lichtenstein.jp
 #//images.weserv.nl/?url=images.weserv.nl/lichtenstein.jpg&w=300&h=300&dpr=2
 
-#cdn:
-#  server: https://wsrv.nl
-#  use_webp: false
-#  native: false # use cloudflare native image resize
-#  max_width:
-#  exclude_domains:
 
 deploy:
-  type: git
-  repo: https://github.com/hnlzwaq/hnlzwaq.github.io.git
-  branch: main
+  - type: cos-cdn
+    cloud: aliyun
+    cdnUrl: https://mingyue.today
+    bucket: mingyue-today
+    region: oss-cn-shanghai
+    folder: static
+    cdnEnable: false
+    deleteExtraFiles: false #谨慎开启
+    secretId: LTAI5tPnPXM83j8jThnwTmCh
+    secretKey: z4CtDVQrWvuauFpkhac2qmmKu3TgI3
+  - type: git
+    repo: https://gitee.com/hnlzwaq/hnlzwaq.git
+    branch: main
+  - type: git
+    repo: https://github.com/hnlzwaq/hnlzwaq.github.io.git
+    branch: main

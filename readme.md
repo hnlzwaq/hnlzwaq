@@ -26,3 +26,14 @@ hexo g -d
 netlify
 
 cloudflare
+
+hexo clean ; hexo g ;hexo d
+
+
+https://mingyue.today/
+https://hnlzwaq.gitee.io/
+https://hnlzwaq.github.io/
+https://effortless-panda-50bb23.netlify.app/
+
+
+

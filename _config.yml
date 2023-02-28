@@ -102,18 +102,18 @@ ignore:
 theme: landscape #https://github.com/hexojs/hexo-theme-landscape
 #theme: ayer  #https://gitee.com/shen-yu/hexo-theme-ayer#multi-language-support
 
-
+# //wsrv.nl/?url=wsrv.nl/lichtenstein.jp
 cdn:
   enable: true
-  base: //cdn.com
-  tail: v=2019042200000
+  base: //wsrv.nl
+  tail: v=2023022800000
   tags:
     'img[data-orign]':  data-orign
     'img[src]':
       attribute: src
       callback: >
         function(imgSrc) {
-          return imgSrc + '?&v='+ Date.now()
+          return '/?url=' + imgSrc + '?&v='+ Date.now()
         }
   excludeTags:
     - 'link'

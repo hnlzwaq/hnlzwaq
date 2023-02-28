@@ -104,9 +104,9 @@ theme: landscape #https://github.com/hexojs/hexo-theme-landscape
 
 # //wsrv.nl/?url=wsrv.nl/lichtenstein.jp
 #//images.weserv.nl/?url=images.weserv.nl/lichtenstein.jpg&w=300&h=300&dpr=2
-cdn:
-  server: https://images.weserv.nl
-  use_webp: false
-  native: false # use cloudflare native image resize
-  max_width:
-  exclude_domains:
+#cdn:
+#  server: https://images.weserv.nl
+#  use_webp: false
+#  native: false # use cloudflare native image resize
+#  max_width:
+#  exclude_domains:

@@ -4,6 +4,8 @@ https://micro.blog.csdn.net/article/details/80177787
 https://blog.csdn.net/weixin_41747528/article/details/102772937
 https://blog.csdn.net/i_do_not_know_you/article/details/105594269
 
+The hostname of the origin is unresolvable (DNS) or blocked by policy
+
 
 正确的解决方案
 首先奉上官方指路文档，按照绑定顶尖域名的方式来解析你的域名Configuring an apex domain。
@@ -20,3 +22,7 @@ https://blog.csdn.net/i_do_not_know_you/article/details/105594269
 
 
 hexo g -d
+
+netlify
+
+cloudflare

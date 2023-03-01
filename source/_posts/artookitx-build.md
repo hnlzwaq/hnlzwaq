@@ -1,12 +1,18 @@
 ---
 title: artookitx-build
 tags:
----
-wsl linux中运行
+--- 
+
+![aaa](artookitx-build/img.png) 
+
+{% asset_img img.png This is an example image %}
+
+wsl linux中运行  
+   
 
 cd :/mnt/d/wanganqing/Projects/Workspace-ar-test/artoolkitx/Source
 
-./build.sh android
+./build.sh android   
 下载opencv2 解压到 Source\depends\android  include 和 lib 中
 设置anroid sdk 环境变量 ，下载 linux sdk
 
@@ -34,3 +40,6 @@ ln -snf ~/Android/Sdk/ndk/25.2.9519653 ~/Android/Sdk/ndk-bundle
 重新执行完毕 ./build.sh android
 
 就可以打开 \Source\ARXJ\ARXJProj 是 java项目
+
+也可以在 wsl 中 直接进入 /mnt/d/wanganqing/Projects/Workspace-ar-test/artoolkitx/Source/ARXJ/ARXJProj 
+执行命令   ./gradlew tasks 

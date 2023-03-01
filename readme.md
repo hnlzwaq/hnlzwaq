@@ -37,3 +37,11 @@ https://effortless-panda-50bb23.netlify.app/
 
 
 
+https://github.com/wnwd/hexo-asset-pro 解决 图片在markdown中可以显示，但是在server中不显示的问题 ，
+hexo-renderer-marked/lib/renderer.js
+// 替换 第一层路径
+// artookitx-build/img.png
+// img.png
+if (!/^(#|\/\/|http(s)?:)/.test(href) && !relative_link ) {
+// href = href.substring(href.indexOf("/")+1)
+}

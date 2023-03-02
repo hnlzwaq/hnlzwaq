@@ -108,7 +108,23 @@ ignore:
 #theme: butterfly  # npm i hexo-theme-butterfly https://github.com/jerryc127/hexo-theme-butterfly  https://butterfly.js.org/
 theme: hexo-theme-matery  #   https://github.com/blinkfox/hexo-theme-matery/ https://blinkfox.github.io/
 
-  
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
 deploy:
   - type: cos-cdn
     cloud: aliyun

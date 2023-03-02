@@ -3,12 +3,7 @@ title: artookitx-build
 tags:
 --- 
 
-![aaa](artookitx-build/img.png) 
-
-{% asset_img img.png This is an example image %}
-
 wsl linux中运行  
-   
 
 cd :/mnt/d/wanganqing/Projects/Workspace-ar-test/artoolkitx/Source
 

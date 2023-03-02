@@ -105,9 +105,10 @@ ignore:
 #theme: landscape # https://github.com/hexojs/hexo-theme-landscape
 #theme: kaze  # https://github.com/theme-kaze/hexo-theme-Kaze
 #theme: ayer  # https://gitee.com/shen-yu/hexo-theme-ayer#multi-language-support
-theme: butterfly  # npm i hexo-theme-butterfly https://github.com/jerryc127/hexo-theme-butterfly  https://butterfly.js.org/
+#theme: butterfly  # npm i hexo-theme-butterfly https://github.com/jerryc127/hexo-theme-butterfly  https://butterfly.js.org/
+theme: hexo-theme-matery  #   https://github.com/blinkfox/hexo-theme-matery/ https://blinkfox.github.io/
 
-
+  
 deploy:
   - type: cos-cdn
     cloud: aliyun

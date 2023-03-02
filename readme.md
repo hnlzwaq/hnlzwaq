@@ -1,4 +1,3 @@
-
 deploy 域名恢复过来了 CNAME 放到 更目录的 source下面
 https://micro.blog.csdn.net/article/details/80177787
 https://blog.csdn.net/weixin_41747528/article/details/102772937
@@ -45,3 +44,8 @@ hexo-renderer-marked/lib/renderer.js
 if (!/^(#|\/\/|http(s)?:)/.test(href) && !relative_link ) {
 // href = href.substring(href.indexOf("/")+1)
 }
+
+Typora 中图片设置 ，图片选项中，插入图片时选择 【选择复制到指定目录】 ./${filename}/ 
+
+
+

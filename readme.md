@@ -45,8 +45,13 @@
 
 [netlify](https://effortless-panda-50bb23.netlify.app/)
 
+# 操作
+```shell
+ hexo new opencv-stitch-hd-areas
+ hexo publish opencv-stitch-hd-areas
+```
 
 # 启动
 ```shell
-    hexo c ; hexo s
+    hexo clean ; hexo server
 ```

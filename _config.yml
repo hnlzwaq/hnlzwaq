@@ -5,11 +5,11 @@
 # Site
 title: 明月•今朝
 subtitle: 王安庆 → 博客
-description: ''
+description: 'OpenCv AR'
 keywords:
 author: Wang anqing
 language: zh-CN
-timezone: ''
+timezone:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -73,7 +73,12 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-tag_map:
+  介绍: introduce
+  openCV: opencv
+  idea: idea
+  java: java
+tag_map:  [介绍,软件,]
+
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

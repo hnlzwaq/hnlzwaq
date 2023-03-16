@@ -169,4 +169,4 @@ deploy:
   - type: git
     repo: https://github.com/hnlzwaq/hnlzwaq.github.io.git
     branch: main
-  - type: url_submission
+#  - type: url_submission

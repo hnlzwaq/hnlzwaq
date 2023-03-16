@@ -1,7 +1,7 @@
 ---
 title: adb自动链接手机ide插件
 date: 2023-03-16 08:11:36
-tags: ide ,android
+tags: android
 ---
 
 # 指定手机ip列表和端口范围

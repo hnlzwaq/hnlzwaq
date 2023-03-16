@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>明月•今朝</title>
+  
+  <subtitle>王安庆 → 博客</subtitle>
+  <link href="https://mingyue.today/atom.xml" rel="self"/>
+  
+  <link href="https://mingyue.today/"/>
+  <updated>2023-03-16T23:20:28.979Z</updated>
+  <id>https://mingyue.today/</id>
+  
+  <author>
+    <name>Wang anqing</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>adb自动链接手机ide插件</title>
+    <link href="https://mingyue.today/2023/03/16/adb-auto-connect-idea-plugin/"/>
+    <id>https://mingyue.today/2023/03/16/adb-auto-connect-idea-plugin/</id>
+    <published>2023-03-16T08:11:36.000Z</published>
+    <updated>2023-03-16T23:20:28.979Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;指定手机ip列表和端口范围&quot;&gt;&lt;a href=&quot;#指定手机ip列表和端口范围&quot; class=&quot;headerlink&quot; title=&quot;指定手机ip列表和端口范围&quot;&gt;&lt;/a&gt;指定手机ip列表和端口范围&lt;/h1&gt;&lt;h1 id=&quot;启动多线程，自动链接手机&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="android" scheme="https://mingyue.today/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>openCV 拼接高清区域</title>
+    <link href="https://mingyue.today/2023/03/13/opencv-stitch-hd-areas/"/>
+    <id>https://mingyue.today/2023/03/13/opencv-stitch-hd-areas/</id>
+    <published>2023-03-13T15:00:13.000Z</published>
+    <updated>2023-03-16T23:20:28.983Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;openCV-拼接高清区域&quot;&gt;&lt;a href=&quot;#openCV-拼接高清区域&quot; class=&quot;headerlink&quot; title=&quot;openCV 拼接高清区域&quot;&gt;&lt;/a&gt;openCV 拼接高清区域&lt;/h1&gt;&lt;h2 id=&quot;图例&quot;&gt;&lt;a href=&quot;#图例&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="opencv" scheme="https://mingyue.today/tags/opencv/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>openCV 统计黑色像素比例</title>
+    <link href="https://mingyue.today/2023/03/13/opencv-black-ratio/"/>
+    <id>https://mingyue.today/2023/03/13/opencv-black-ratio/</id>
+    <published>2023-03-13T14:56:46.000Z</published>
+    <updated>2023-03-16T23:20:28.983Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;openCV-统计黑色像素比例&quot;&gt;&lt;a href=&quot;#openCV-统计黑色像素比例&quot; class=&quot;headerlink&quot; title=&quot;openCV 统计黑色像素比例&quot;&gt;&lt;/a&gt;openCV 统计黑色像素比例&lt;/h1&gt;&lt;h2 id=&quot;图例&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="opencv" scheme="https://mingyue.today/tags/opencv/"/>
+    
+  </entry>
+  
+</feed>
